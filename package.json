@@ -1,0 +1,46 @@
+{
+    "name": "yuanian-thunder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "prepublish": "gulp"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.2.0",
+        "@beisen/babel": "7.x.x",
+        "babel-plugin-add-module-exports": "^1.0.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-sync": "^0.1.4",
+        "gulp-util": "^3.0.8"
+    },
+    "dependencies": {
+        "yuanian-webpack-config": "1.x.x",
+        "bluebird": "^3.5.2",
+        "chokidar": "^2.0.4",
+        "commander": "^2.19.0",
+        "dotenv": "^6.1.0",
+        "execa": "^1.0.0",
+        "npmlog": "^4.1.2",
+        "webpack-bundle-analyzer": "^3.0.3",
+        "webpack-dev-server": "^3.1.8",
+        "webpack-merge": "^4.1.4",
+        "yeoman-environment": "^2.3.3",
+        "yeoman-generator": "^3.1.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/caihuascript/react-simple-component.git"
+    },
+    "bugs": {
+      "url": "https://github.com/caihuascript/react-simple-component/issues"
+    },
+    "homepage": "https://github.com/caihuascript/react-simple-component#readme"
+  }
+  
